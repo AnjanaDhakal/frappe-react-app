@@ -31,11 +31,11 @@ export const DetailsScreen = () => {
         style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
       >
         <Layout style={{ marginVertical: 20, position: "relative" }}>
-          <ProfileImage source={{
+          {/* <ProfileImage source={{
             uri: userInfo.picture, headers: {
               Authorization: `Bearer ${accessToken}` // for handling private images
             }
-          }} contentFit="cover" />
+          }} contentFit="cover" /> */}
 
           {loading && <CircularProgressBar style={{ position: "absolute", top: 30, left: 30, backgroundColor: "white" }} progress={uploadProgress} />}
         </Layout>
@@ -78,7 +78,7 @@ export const DetailsScreen = () => {
             }
 
           }
-        }}>Change Profile Pic</Button>
+        }}> Profile Pic</Button>
 
         <Layout style={{ marginVertical: 20 }}></Layout>
 

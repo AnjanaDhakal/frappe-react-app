@@ -6,6 +6,7 @@ import { AuthProvider } from "./src/provider/auth";
 import Toast from 'react-native-toast-message';
 
 
+
 import { default as theme } from "./theme.json";
 import { FrappeProvider } from "./src/provider/backend";
 

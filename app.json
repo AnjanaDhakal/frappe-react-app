@@ -31,13 +31,13 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "8fdd6952-bd1f-4c65-90fb-3a696ad52c97"
-      }
-    },
     "plugins": [
       "expo-build-properties"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c7ef9cd6-c059-4914-9495-7f5f792e4726"
+      }
+    }
   }
 }
