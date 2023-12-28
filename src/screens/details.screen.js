@@ -82,7 +82,7 @@ export const DetailsScreen = () => {
 
         <Layout style={{ marginVertical: 20 }}></Layout>
 
-        <Text category="h4">{isAuthenticated ? userInfo.name : "Not Logged In"}</Text>
+        <Text category="h4">{isAuthenticated ? userInfo.name : "Not Logged In"}</Text> 
         {isAuthenticated && (
           <LogoutButton
             onPress={() => {

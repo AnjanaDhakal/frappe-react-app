@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "changemakers-rn",
-    "slug": "changemakers-rn",
+    "name": "frappeapp",
+    "slug": "frappeapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,7 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "scheme": "io.frappe.changemakers",
+    "scheme": "com.nepfinder.frappeapp",
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -26,7 +26,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "io.frappe.changemakers"
+      "package": "com.nepfinder.frappeapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -36,7 +36,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "c7ef9cd6-c059-4914-9495-7f5f792e4726"
+        "projectId": "9bf31f13-ea94-4153-ad51-82bffe3d51cc"
       }
     }
   }
