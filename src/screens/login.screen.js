@@ -56,7 +56,10 @@ const LoginScreen = () => {
           console.error('Error:', error);
           // Handle the error as needed
       });
-  
+      setUsername('');
+      setPassword('');
+      setEmail('');
+    
       // Rest of your code...
     };
 

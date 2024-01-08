@@ -54,10 +54,10 @@ const AuthProvider = (props) => {
       const userInfo = await call.get("frappe.integrations.oauth2.openid_profile")
       setUserInfo(userInfo);
     } catch (e) {
-      if (e.httpStatus === 403) {
+      // if (e.httpStatus === 403) {
         // refresh token
         await refreshAccessTokenAsync();
-      }
+     // }
     }
   };
 
@@ -157,10 +157,10 @@ const AuthProvider = (props) => {
   }, [response]);
 
   useEffect(() => {
-    if (accessToken) {
+    if (accessToken && refreshToken) {
       fetchUserInfo();
     }
-  }, [accessToken])
+  }, [accessToken, refreshToken])
 
   return (
     <AuthContext.Provider

@@ -11,7 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "scheme": "com.nepfinder.frappeapp",
+    "scheme": "com.nepfinder.logi360",
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -26,7 +26,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.nepfinder.frappeapp"
+      "package": "com.nepfinder.logi360"
     },
     "web": {
       "favicon": "./assets/favicon.png"
